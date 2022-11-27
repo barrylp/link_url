@@ -36,19 +36,16 @@ body{text-shadow:0 .05rem .1rem rgba(0,0,0,.5)}
                     <option value="link">Link</option>
                 </select>
                 <select class="form-control" id="Time_select">
-                    <option value="7">7天</option>
-                    <option value="15">15天</option>
-                    <option value="30">30天</option>
-                    <option value="90">90天</option>
+                    <option value="1">1天</option>
                 </select>
                 <input type="text" id="name" placeholder="short code" class="input-group-text">
             </div>
             <div id="text_div">
-                <textarea id="link" placeholder="link/text.." class="form-control" rows="8"></textarea><br>
+                <textarea id="link" placeholder="粘贴长链接" class="form-control" rows="8"></textarea><br>
             </div>
             <p class="lead">
-                <a href="#" onclick="getlink()" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Get</a>
-                <button type="button" id='copy' data-clipboard-action="copy" data-clipboard-target="#url" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Copy</button>
+                <a href="#" onclick="getlink()" class="btn btn-lg btn-secondary fw-bold border-white bg-white">开始</a>
+                <button type="button" id='copy' data-clipboard-action="copy" data-clipboard-target="#url" class="btn btn-lg btn-secondary fw-bold border-white bg-white">复制</button>
             </p>
         </main>
     </div>
